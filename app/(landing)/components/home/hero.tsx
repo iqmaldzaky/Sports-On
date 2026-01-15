@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section id="hero-section" className="container mx-auto h-screen flex">
 
-      <div className="relative self-center">
+      <div className="relative self-center mt-10">
         <Image
           src="/images/img-basketball.svg"
           width={432}
@@ -52,7 +52,7 @@ const HeroSection = () => {
         width={300}
         height={300}
         alt="image sporton"
-        className="absolute -right-[200px] top-110 -translate-y-1/2 "
+        className="absolute -right-[200px] top-100 -translate-y-1/2 "
         
       />
     </section>
